@@ -19,11 +19,11 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
     <aside className="sidebar">
       <Link href="/">
         <Image
-          src="/assets/icons/logo-full-brand.svg"
+          src="/assets/icons/vaultify-new.png"
           alt="logo"
           width={160}
-          height={50}
-          className="hidden h-auto lg:block"
+          height={40}
+          className="hidden h-auto lg:block "
         />
 
         <Image
